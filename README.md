@@ -1,5 +1,5 @@
 # texttospeech
-This is microsoft text to speech sample app designed &amp; developed by peter kelvin torver using the microsoft text to speech nodejs sdk with reactjs &amp; nodejs express server.
+This is microsoft text to speech sample app designed &amp; developed by peter kelvin torver using the microsoft text to speech nodejs sdk with reactjs &amp; nodejs express server. I have also implemented *unit testing* using *jest* and *end to end testing* using *supertest*. 
 ## To See the demo
 A demo is worth a thousand words.
 Go to https://texttospeechapp.herokuapp.com/
@@ -20,6 +20,9 @@ To run this project locally, open two terminals,
 4. Go to ***/server/config/corsconfig.js*** file and ensure your client side url is listed as one of the domains to be used by cors to allow client & server communication.
 5. Once everything is done, run **nodemon** on the terminal and this should start your server.
 
+### To run the test on the server
 
+1. ***cd server***
+2. ***npm test ***
 
 **Happy Coding! &hearts;**
